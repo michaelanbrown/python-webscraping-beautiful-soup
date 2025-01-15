@@ -7,4 +7,4 @@ html = requests.get("https://flatironschool.com/", headers=headers)
 
 doc = BeautifulSoup(html.text, 'html.parser')
 
-print(doc.select('.heading-financier'))
+print(doc.select('.heading-60-black.color-black.mb-20'))
